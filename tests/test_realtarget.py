@@ -25,7 +25,8 @@ import argparse
 from pyajam import Pyajam
 
 class BaseTest(unittest.TestCase):
-    def __init__(self, name, (server, user, password), version, login=False):
+    def __init__(self, name, xxx_todo_changeme, version, login=False):
+        (server, user, password) = xxx_todo_changeme
         super(BaseTest, self).__init__(name)
 
         self.server  = server

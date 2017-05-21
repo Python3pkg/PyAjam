@@ -1,2 +1,2 @@
 
-from pyajam import Pyajam
+from .pyajam import Pyajam

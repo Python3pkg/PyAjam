@@ -108,7 +108,7 @@ if __name__ == '__main__':
     testnames =  unittest.TestLoader().getTestCaseNames(TestDecoding)
 
     for vers in ['1.4', '1.6']:
-        print "** with asterisk %s **" % vers
+        print("** with asterisk %s **" % vers)
 
         suite = unittest.TestSuite()
         for name in testnames:

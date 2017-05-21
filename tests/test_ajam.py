@@ -16,7 +16,7 @@ class TestPyajam:
                   <response type='object' id='unknown'><generic event='PeerStatus' privilege='system,all' peer='SIP/601' peerstatus='Registered' /></response>
                   <response type='object' id='unknown'><generic event='WaitEventComplete' /></response>
                 </ajax-response> '''
-        expected = [{u'peer': u'SIP/601', u'peerstatus': u'Registered', u'event': u'PeerStatus', u'privilege': u'system,all'}, {u'event': u'WaitEventComplete'}]
+        expected = [{'peer': 'SIP/601', 'peerstatus': 'Registered', 'event': 'PeerStatus', 'privilege': 'system,all'}, {'event': 'WaitEventComplete'}]
 
         ajam = Pyajam()
 
